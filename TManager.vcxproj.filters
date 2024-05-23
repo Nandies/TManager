@@ -1,0 +1,254 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="glfw\glfw3.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="glfw\glfw3native.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imconfig.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_impl_glfw.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_impl_opengl3.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_impl_opengl3_loader.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_internal.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imstb_rectpack.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imstb_textedit.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imstb_truetype.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="glew\include\glew.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cpr\accept_encoding.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cpr\api.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cpr\async.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cpr\async_wrapper.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cpr\auth.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cpr\bearer.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cpr\body.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cpr\buffer.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cpr\callback.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cpr\cert_info.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cpr\connect_timeout.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cpr\cookies.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cpr\cpr.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cpr\cprtypes.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cpr\curl_container.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cpr\curlholder.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cpr\curlmultiholder.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cpr\error.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cpr\file.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cpr\filesystem.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cpr\http_version.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cpr\interceptor.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cpr\interface.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cpr\limit_rate.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cpr\local_port.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cpr\local_port_range.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cpr\low_speed.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cpr\multipart.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cpr\multiperform.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cpr\parameters.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cpr\payload.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cpr\proxies.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cpr\proxyauth.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cpr\range.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cpr\redirect.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cpr\reserve_size.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cpr\resolve.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cpr\response.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cpr\session.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cpr\singleton.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cpr\ssl_ctx.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cpr\ssl_options.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cpr\status_codes.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cpr\threadpool.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cpr\timeout.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cpr\unix_socket.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cpr\user_agent.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cpr\util.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cpr\verbose.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\json.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="fetch.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="colors.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="fonts.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="imgui\imgui.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_demo.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_draw.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_impl_glfw.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_impl_opengl3.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_tables.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_widgets.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="glew\src\glew.c">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="glew\lib\Release\Win32\glew32.lib">
+      <Filter>Resource Files</Filter>
+    </Library>
+    <Library Include="glew\lib\Release\x64\glew32.lib">
+      <Filter>Resource Files</Filter>
+    </Library>
+    <Library Include="cpr\cpr.lib">
+      <Filter>Resource Files</Filter>
+    </Library>
+  </ItemGroup>
+</Project>
